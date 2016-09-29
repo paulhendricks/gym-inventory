@@ -8,8 +8,8 @@ import logging
 logger = logging.getLogger(__name__)
 
 
-class SimpleInventoryEnv(gym.Env, utils.EzPickle):
-    """Simple inventory control with lost sales environment
+class InventoryEnv(gym.Env, utils.EzPickle):
+    """Inventory control with lost sales environment
 
     TO BE EDITED
 
